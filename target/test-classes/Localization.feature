@@ -7,7 +7,7 @@ Feature: Google maps – localization
     Then I should see  "<localization>"  on map
     Examples:
       | localization |
-      |Kalifornia    |
-      |Nowy Jork     |
-      |Tokio         |
+      |California    |
+      |New York      |
+      |Tokyo         |
 
