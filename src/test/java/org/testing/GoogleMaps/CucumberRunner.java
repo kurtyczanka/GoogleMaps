@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty"},
-features = "src/test/resources/Localization.feature",
+        features = "src/test/resources/Localization.feature",
         strict = true,
-tags = "@settingLocalization-feature")
+        tags = "@settingLocalization-feature")
 public class CucumberRunner {
 
 }
